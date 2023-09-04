@@ -26,31 +26,6 @@ export default function Navbar({ userData, logout }) {
                 Home
               </Link>
             </li>:''}
-            {/* <li className="nav-item">
-              <Link className="nav-link active" to="/movies">
-                Movies
-              </Link>
-            </li> */}
-            {/* <li className="nav-item">
-              <Link className="nav-link active" to="#">
-                Tv shows
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link active" to="/people">
-                People
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link active" to="#">
-                About
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link active" to="#">
-                Networks
-              </Link>
-            </li> */}
           </ul>
           <form className="d-flex position-relative" role="search">
             <input
@@ -73,7 +48,7 @@ export default function Navbar({ userData, logout }) {
                 Logout
               </span>
             ) : (
-              <Link to="/">login</Link>
+            ""
             )}
           </div>
         </div>
